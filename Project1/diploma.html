@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://t4.ftcdn.net/jpg/03/84/65/53/360_F_384655314_WrMKiQV5bT9NE7XgPqYxNmNRXmFhltL8.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100vw;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+
+        .diploma-heading {
+            color: white;
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            animation-name: Diploma-name;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes Diploma-name {
+            0% {
+                letter-spacing: 30px;
+            }
+
+            25% {
+                letter-spacing: 5px;
+
+            }
+
+            50% {
+                letter-spacing: 10px;
+            }
+        }
+
+        .summary-of-diploma {
+            color: white;
+            width: 100vw;
+
+
+        }
+
+        .summary-of-diploma-2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .text-about-diploma {
+            display: flex;
+            justify-content: center;
+            width: 45vw;
+        }
+
+        .polytechnic-picture:hover {
+            width: 45%;
+            height: 45%;
+        }
+
+        .all-brannches-heading {
+            color: white;
+        }
+
+        .footer-of-branches {
+            color: white;
+            width: 90vw;
+        }
+
+        .barnches-names {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 35%;
+        }
+
+        .branch a {
+            color: orangered;
+        }
+
+        .branch a:hover {
+            color: white;
+            font-size: larger
+        }
+
+        footer {
+            width: 100%;
+            height: 20%;
+            color: white;
+            font-size: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="diploma-heading">
+        <h1>Polytechnic Diploma</h1>
+    </div>
+    <div class="summary-of-diploma">
+        <h2>Summary Of Diploma Polytechnic:-</h2>
+        <div class="summary-of-diploma-2">
+            <p class="text-about-diploma">Diploma in Polytechnic is a three-year technical course offered in various
+                fields of Engineering and Technology such as Mechanical Engineering, Civil Engineering, Computer Science
+                Engineering, Electrical Engineering, and others. The course provides students with practical, hands-on
+                experience and prepares them for careers in their respective fields.
+
+                The curriculum includes subjects like Applied Sciences, Basic Engineering, and Technology, Practical
+                Workshops, and Project Works. Students also have the opportunity to undergo industrial training and gain
+                real-world experience.
+
+                Upon successful completion of the course, students are awarded a Diploma certificate, which is
+                recognized by the government and industry alike. The diploma holders can work as technicians,
+                supervisors, or junior engineers in various fields. Some students also opt for higher studies in their
+                respective fields to advance their careers.
+
+                In conclusion, a Diploma in Polytechnic provides students with a solid foundation in their chosen field
+                and prepares them for careers in the industry.
+            </p>
+            <img src="https://www.igef.net/images/polytechnic-civil-engineering.jpg" alt="" class="polytechnic-picture"
+                width="40%" height="40%">
+        </div>
+    </div>
+    <div class="branches-of-diploma">
+        <h1 class="all-brannches-heading">All Branches in Diploma</h1>
+        <div class="barnches-names">
+            <div class="Mechanical-Engineering branch">
+                <h3><a href="mechanical-engineering.html">1.Mechanical Engineering</a></h3>
+            </div>
+            <div class="Civil-Engineering branch">
+                <h3><a href="#">2.Civil Engineering</a></h3>
+            </div>
+            <div class="Computer-Science-Engineering branch">
+                <h3><a href="#">3.Computer Science Engineering</a></h3>
+            </div>
+            <div class="Electrical-Engineering branch">
+                <h3><a href="#">4.Electrical Engineering</a></h3>
+            </div>
+            <div class="Electronics-Engineering branch">
+                <h3><a href="#">5.Electronics Engineering</a></h3>
+            </div>
+            <div class="Automobile-Engineering branch">
+                <h3><a href="#">6.Automobile Engineering</a></h3>
+            </div>
+            <div class="Aeronautical-Engineering branch">
+                <h3><a href="#">7.Aeronautical Engineering</a></h3>
+            </div>
+            <div class="Architecture branch">
+                <h3><a href="#">8.Architecture</a></h3>
+            </div>
+            <div class="Chemical-Engineering branch">
+                <h3><a href="#">9.Chemical Engineering</a></h3>
+            </div>
+            <div class="Textile-Engineering branch">
+                <h3><a href="#">10.Textile Engineering</a></h3>
+            </div>
+            <div class="Plastic-Engineering branch">
+                <h3><a href="#">11.Plastic Engineering</a></h3>
+            </div>
+            <div class="Agricultural-Engineering branch">
+                <h3><a href="#">12.Agricultural Engineering</a></h3>
+            </div>
+            <div class="Mining-Engineering branch">
+                <h3><a href="#">13.Mining Engineering</a></h3>
+            </div>
+            <div class="Instrumentation-and-Control-Engineering branch">
+                <h3><a href="#">14.Instrumentation and Control Engineering</a></h3>
+            </div>
+            <div class="Information-Technology branch">
+                <h3><a href="#">15.Information-Technology</a></h3>
+            </div>
+            <div class="Marine-Engineering branch">
+                <h3><a href="#">16.Marine Engineering</a></h3>
+            </div>
+            <div class="Food-Technology branch">
+                <h3><a href="#">17.Food Technology</a></h3>
+            </div>
+        </div>
+        <h4 class="footer-of-branches"><span>Note:-</span> This list may vary depending on the college or institute
+            offering the course and the location. It is important to research and compare different institutions to
+            determine the availability of your desired branch before enrolling in a Diploma in Polytechnic program.</h4>
+
+    </div>
+    <hr>
+    <footer>
+        <h3>Site Name - Career Guidlines <br>
+            Authors - The ERRORs <br>
+            Team name - The ERRORs <br>
+            Group Name - The ERRORs <br>
+            Contac-us - +917330372830 copyright&copy;</h3>
+    </footer>
+
+</body>
+
+</html>

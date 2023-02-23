@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+            background-attachment: fixed;
+        }
+
+        .diploma-heading {
+            color: black;
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            animation-name: Diploma-name;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            letter-spacing: 10px;
+        }
+
+        @keyframes Diploma-name {
+            0% {
+                letter-spacing: 15px;
+            }
+
+            25% {
+                letter-spacing: 10px;
+
+            }
+
+            50% {
+                letter-spacing: 15px;
+            }
+        }
+
+        .summary-of-diploma {
+            color: black;
+            width: 100vw;
+
+
+        }
+
+        .summary-of-diploma-2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .text-about-diploma {
+            display: flex;
+            align-self: center;
+            justify-self: center;
+            width: 45vw;
+            background-color: lightblue;
+            box-sizing: border-box;
+            padding: 15px;
+            border-radius: 15px;
+
+        }
+
+        .polytechnic-picture:hover {
+            width: 45%;
+            height: 45%;
+        }
+
+        .all-brannches-heading {
+            color: black;
+        }
+
+
+
+        .barnches-names {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .branch {
+            margin-bottom: 10px;
+
+        }
+
+        .home {
+            background-color: lightblue;
+            color: white;
+            width: 50px;
+            display: block;
+            padding: 5px;
+            border-radius: 15px;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="diploma-heading">
+        <h6>Polytechnic Diploma</h6>
+    </div>
+    <div class="summary-of-diploma">
+        <h2>Summary Of Diploma Polytechnic:-</h2>
+        <div class="summary-of-diploma-2">
+            <p class="text-about-diploma">Diploma in Polytechnic is a three-year technical course offered in various
+                fields of Engineering and Technology such as Mechanical Engineering, Civil Engineering, Computer Science
+                Engineering, Electrical Engineering, and others. The course provides students with practical, hands-on
+                experience and prepares them for careers in their respective fields.
+
+                The curriculum includes subjects like Applied Sciences, Basic Engineering, and Technology, Practical
+                Workshops, and Project Works. Students also have the opportunity to undergo industrial training and gain
+                real-world experience.
+
+                Upon successful completion of the course, students are awarded a Diploma certificate, which is
+                recognized by the government and industry alike. The diploma holders can work as technicians,
+                supervisors, or junior engineers in various fields. Some students also opt for higher studies in their
+                respective fields to advance their careers.
+
+                In conclusion, a Diploma in Polytechnic provides students with a solid foundation in their chosen field
+                and prepares them for careers in the industry.
+            </p>
+            <!-- carousel -->
+            <div class="carousel slide" data-bs-ride="carousel" id="demo">
+
+
+                <!-- carousel-indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="12"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="13"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="14"></button>
+                </div>
+
+
+
+                <!-- slide-show/carousel -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="https://www.igef.net/images/polytechnic-civil-engineering.jpg" alt="firstpic"
+                            class="d-block w-100" width="600px" height="300px">
+                    </div>
+
+                    <div class=" carousel-item">
+                        <img src="mechanical head image.jpg" alt="mechpic" class="d-block w-100" width="600px"
+                            height="300px">
+                    </div>
+
+                    <div class=" carousel-item">
+                        <img src="civil head pic.jpg" alt="civilpic" class="d-block w-100" width="600px" height="300px">
+                    </div>
+
+                    <div class=" carousel-item">
+                        <img src="computer science head pic.jpg" alt="computerpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="electrical head pic.jpg" alt="electricalpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="eletranic head pic.jpg" alt="electronicpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Automobile head pic.jpg" alt="Automobilepic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Aeronautical head pic.jpeg" alt="Aeronauticalpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="arcitechture head pic.jpeg" alt="architecturepic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="chemical head Pic.jpeg" alt="chemicalpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="texttile head pic.jpeg" alt="texttilepic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="plastic engineering head pic.jpg" alt="plasticpic" class="d-block w-100"
+                            height="300px" width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="agricultural head pic.jpg" alt="agriculturalpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="mining engineering head pic.jpg" alt="miningpic" class="d-block w-100" height="300px"
+                            width="600px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="instrument and control head pic.jpg" alt="instrumentpic" class="d-block w-100"
+                            height="300px" width="600px">
+                    </div>
+                </div>
+
+
+                <!-- left and right control icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev"><span
+                        class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"><span
+                        class="carousel-control-next-icon"></span></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="branches-of-diploma">
+        <h1 class="all-brannches-heading">All Branches in Diploma</h1>
+        <div class="barnches-names">
+
+
+            <div class="Mechanical-Engineering branch card mb-3" style="width: 600px">
+                <img class="card-img-top" src="mechanical head image.jpg" alt="mechpicture" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Mechanical Engineering</h3>
+                    <p class="card-text">Mechanical Engineering is a branch of engineering that deals with the design,
+                        production, and use of
+                        machinery and mechanical systems. It covers a wide range of applications, including energy
+                        systems,
+                        materials, and manufacturing processes.</p>
+                    <a href="mechanical-engineering.html" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Civil-Engineering branch card bg-light" style="width: 600px">
+                <img class="card-img-top" src="civil head pic.jpg" alt="civilpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Civil Engineering</h3>
+                    <p class="card-text">Civil Engineering is a branch of engineering that deals with the design,
+                        construction, and maintenance of infrastructure, such as buildings, bridges, roads, and water
+                        supply systems. It plays a crucial role in shaping the built environment and improving the
+                        quality of life for people.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+            </div>
+
+
+            <div class="Computer-Science-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="computer science head pic.jpg" alt="comsciencepic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Computer Science Engineering</h3>
+                    <p class="card-text">Computer Science Engineering (CSE) is a branch of engineering that deals with
+                        the design, development, and maintenance of computer software and hardware systems. It involves
+                        the study of algorithms, programming languages, computer architecture, and software engineering.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Electrical-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="electrical head pic.jpg" alt="electricalpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Electrical Engineering</h3>
+                    <p>Electrical Engineering is a branch of engineering that deals with the study and application of
+                        electrical systems and components. It covers a wide range of industries including energy,
+                        telecommunications, and transportation.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Electronics-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="eletranic head pic.jpg" alt="eletranicpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Electronics Engineering</h3>
+                    <p class="card-text">Electronics Engineering is a branch of engineering that deals with the design,
+                        development, and application of electronic systems and components. It covers a wide range of
+                        industries including telecommunications, computer systems, and consumer electronics.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+            <div class="Automobile-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Automobile head pic.jpg" alt="Automobilepic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Automobile Engineering</h3>
+                    <p class="card-text">Automobile Engineering is a branch of engineering that deals with the design,
+                        development, and maintenance of vehicles, including cars, trucks, buses, motorcycles, and other
+                        motorized vehicles. It covers a wide range of industries including automotive manufacturing,
+                        transportation, and racing.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Aeronautical-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Aeronautical head pic.jpeg" alt="Aeronauticalpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Aeronautical Engineering</h3>
+                    <p class="card-text">Aeronautical Engineering is a branch of engineering that deals with the design,
+                        development, and maintenance of aircraft and spacecraft. It covers a wide range of industries
+                        including commercial aviation, military aviation, and space exploration.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Architecture branch card" style="width: 600px">
+                <img class="card-img-top" src="arcitechture head pic.jpeg" alt="architecturepic" width="400px"
+                    height="300px">
+                <h3 class="card-title">Architecture Engineering</h3>
+                <div class="card-body">
+                    <p class="card-text">Architecture Engineering is a branch of engineering that deals with the design,
+                        planning, and construction of buildings, structures, and other physical environments. It covers
+                        a wide range of industries including construction, urban planning, and interior design.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+
+            </div>
+            <div class="Chemical-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="chemical head Pic.jpeg" alt="chemicalpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Chemical Engineering</h3>
+                    <p class="card-text">Chemical Engineering is a branch of engineering that deals with the design,
+                        development, and operation of processes and equipment used in the production of chemicals,
+                        fuels, and other products. It covers a wide range of industries including petrochemicals,
+                        pharmaceuticals, biotechnology, and environmental engineering.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Textile-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="texttile head pic.jpeg" alt="texttilepic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Textile Engineering</h3>
+                    <p class="card-text">Textile Engineering is a branch of engineering that deals with the design,
+                        development, and production of textile materials and products. It covers a wide range of
+                        industries including fashion, textiles, and apparel, as well as medical textiles, protective
+                        textiles, and automotive textiles.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+            </div>
+
+
+            <div class="Plastic-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="plastic engineering head pic.jpg" alt="plasticpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Plastic Engineering</h3>
+                    <p class="card-text">Plastic Engineering is a branch of engineering that deals with the design,
+                        development, and production of plastic materials and products. It covers a wide range of
+                        industries including automotive, medical devices, consumer goods, and packaging.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Agricultural-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="agricultural head pic.jpg" alt="agriculturalpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Agricultural Engineering</h3>
+                    <p class="card-text">Agricultural Engineering is a branch of engineering that applies principles of
+                        engineering to agriculture and agricultural production. It involves the design, development, and
+                        operation of machinery, equipment, and structures used in agriculture and related industries.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Mining-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="mining engineering head pic.jpg" alt="miningpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Mining Engineering</h3>
+                    <p class="card-text">Mining Engineering is a branch of engineering that applies principles of
+                        engineering to mining operations. It involves the design, development, and operation of mines
+                        and associated infrastructure to extract valuable minerals and resources from the earth.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Instrumentation-and-Control-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="instrument and control head pic.jpg" alt="instrumentpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Instrumentation and Control Engineering</h3>
+                    <p class="card-text">Instrumentation and Control Engineering is a branch of engineering that focuses
+                        on the design, development, and maintenance of control systems and instrumentation in various
+                        industries such as chemical, oil and gas, power generation, and manufacturing.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Information-Technology branch card" style="width: 600px">
+                <img class="card-img-top" src="it head pic.jpg" alt="itpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Information-Technology</h3>
+                    <p class="card-text">Information Technology Engineering is a branch of engineering that focuses on
+                        the use of computers, networks, and other digital technologies to manage and process
+                        information. It involves the design, development, and maintenance of software applications,
+                        computer systems, and networks.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Marine-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="marine head pic.jpg" alt="marinepic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Marine Engineering</h3>
+                    <p class="card-text">Marine Engineering is a branch of engineering that focuses on the design,
+                        development, and maintenance of mechanical and electrical systems used in ships and other marine
+                        vessels. It involves the application of engineering principles to the construction, operation,
+                        and maintenance of marine vessels and offshore structures.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+            <div class="Food-Technology branch card" style="width: 600px">
+                <img class="card-img-top" src="Food head pic.jpg" alt="foodpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Food Technology</h3>
+                    <p class="card-text">Food Technology Engineering is a branch of engineering that focuses on the
+                        processing, preservation, and packaging of food products. It involves the application of
+                        engineering principles and scientific knowledge to develop innovative food products that are
+                        safe, nutritious, and appealing to consumers.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+        </div>
+        <h4 class="footer-of-branches"><span>Note:-</span> This list may vary depending on the college or institute
+            offering the course and the location. It is important to research and compare different institutions to
+            determine the availability of your desired branch before enrolling in a Diploma in Polytechnic program.</h4>
+
+    </div>
+    <center><a href="project1.html" class="home">Home</a></center>
+    <hr>
+    <footer>
+        <h6>Site Name - Career Guidlines <br>
+            Authors - The ERRORs <br>
+            Team name - The ERRORs <br>
+            Group Name - The ERRORs <br>
+            Contac-us - +917330372830 copyright&copy;</h6>
+    </footer>
+
+
+
+</body>
+
+</html>

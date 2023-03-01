@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+            background-attachment: fixed;
+        }
+
+        .ITI-heading {
+            color: white;
+            font-size: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            animation-name: ITI-name;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            letter-spacing: 10px;
+            width: 100%;
+            height: 15vh;
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        }
+
+        @keyframes ITI-name {
+            0% {
+                letter-spacing: 15px;
+            }
+
+            25% {
+                letter-spacing: 10px;
+
+            }
+
+            50% {
+                letter-spacing: 15px;
+            }
+        }
+
+        .summary-of-ITI {
+            color: black;
+            width: 100vw;
+            margin-top: 15px;
+
+        }
+
+        .summary-of-ITI-2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .text-about-ITI {
+            display: flex;
+            align-self: center;
+            justify-self: center;
+            width: 45vw;
+            background-color: lightblue;
+            box-sizing: border-box;
+            padding: 15px;
+            border-radius: 15px;
+
+        }
+
+        /* .polytechnic-picture:hover {
+            width: 45%;
+            height: 45%;
+        } */
+
+        .all-Trades-heading {
+            color: black;
+        }
+
+
+
+        .Trade-names {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .branch {
+            margin-bottom: 10px;
+
+        }
+
+        .home {
+            background-color: lightblue;
+            color: white;
+            width: 50px;
+            display: block;
+            padding: 5px;
+            border-radius: 15px;
+            text-decoration: none;
+
+        }
+
+        .ITI-logo {
+            display: inline;
+            display: flex;
+            justify-content: space-around;
+            background: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            justify-content: space-around;
+        }
+
+        .gotop {
+            text-decoration: none;
+            width: 50px;
+            color: white;
+            padding: 5px;
+            border-radius: 15px;
+            background-color: li;
+        }
+
+        #demo {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ITI-heading">
+        <h1>Industrial Training Institute</h1>
+    </div>
+
+    <div class="ITI-logo">
+        <img src="Images/ITI-removebg-preview (1).png" alt="" width="250px" height="150px">
+        <img src="Images/ITI_logo-removebg-preview.png" alt="" width="250px" height="150px">
+        <img src="Images/ibm logo.png" alt="" width="250px" height="150px">
+    </div>
+
+
+    <center>
+        <!-- carousel -->
+        <div class="carousel slide" data-bs-ride="carousel" id="demo">
+
+
+            <!-- carousel-indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="12"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="13"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="14"></button>
+            </div>
+
+
+
+            <!-- slide-show/carousel -->
+            <div class="carousel-inner" class="image">
+
+                <div class="carousel-item active">
+                    <img src="https://www.igef.net/images/polytechnic-civil-engineering.jpg" alt="firstpic"
+                        class="d-block w-90" width="600px" height="300px" style="border-radius: 20px;">
+                </div>
+
+                <div class=" carousel-item">
+                    <img src="Images/carpenter.jpg" alt="mechpic" class="d-block w-80" width="600px" height="300px">
+                </div>
+
+                <div class=" carousel-item">
+                    <img src="Images/Copa.jpeg" alt="civilpic" class="d-block w-80" width="600px" height="300px">
+                </div>
+
+                <div class=" carousel-item">
+                    <img src="Images/Draughtsman (Civil).jpg" alt="computerpic" class="d-block w-80" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Draughtsman (Mechanical).jpg" alt="electricalpic" class="d-block w-100"
+                        height="300px" width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Dress Making.jpg" alt="electronicpic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Electrician image.jpg" alt="Automobilepic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Electronic mechanic.jpg" alt="Aeronauticalpic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Fitter.jpeg" alt="architecturepic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Information Technology and Electronic System Maintenance.jpeg" alt="chemicalpic"
+                        class="d-block w-100" height="300px" width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Instrumentation.jpeg" alt="texttilepic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/machinist.webp" alt="plasticpic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Mechanic (Diesel).jpg" alt="agriculturalpic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Mechanic (Radio and TV).jpg" alt="miningpic" class="d-block w-100" height="300px"
+                        width="600px">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images/Mechanic (Refrigeration and Air Conditioning).jpg" alt="instrumentpic"
+                        class="d-block w-100" height="300px" width="600px">
+                </div>
+            </div>
+
+
+            <!-- left and right control icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev"><span
+                    class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"><span
+                    class="carousel-control-next-icon"></span></button>
+        </div>
+    </center>
+    <div class="summary-of-ITI" id="top">
+        <h2>Summary Of ITI :-</h2>
+        <div class="summary-of-ITI-2">
+            <p class="text-about-ITI">Industrial Training Institutes (ITIs) are vocational training institutes in India
+                that provide technical education and skill training to students. The courses offered by ITIs cover a
+                wide range of trades and skills, such as electrician, fitter, welder, machinist, and plumber, among
+                others. The courses are designed to provide practical training to students and equip them with the
+                skills and knowledge required to succeed in the job market.
+
+                ITIs are run by the Directorate General of Training (DGT), under the Ministry of Skill Development and
+                Entrepreneurship. The duration of courses varies from 6 months to 2 years, depending on the trade and
+                level of course. After completion of the course, students can take the All India Trade Test (AITT)
+                conducted by the National Council for Vocational Training (NCVT) to receive their certification.The main
+                aim of ITIs is to develop a skilled workforce to meet the needs of the country's growing economy. ITIs
+                also provide a platform for students to start their own businesses or become self-employed. The
+                government of India has been taking various initiatives to promote vocational education and skill
+                development through ITIs, such as the Skill India program, which aims to train over 400 million people
+                by 2022.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="branches-of-diploma">
+        <h1 class="all-Trades-heading">All Trades in ITI</h1>
+        <div class="Trade-names">
+
+            <div class="Mechanical-Engineering branch card mb-3" style="width: 600px">
+                <img class="card-img-top" src="Images/Electrician image.jpg" alt="mechpicture" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title"> Electrical</h3>
+                    <p class="card-text">Mechanical Engineering is a branch of engineering
+                        that deals with the
+                        design,
+                        production, and use of
+                        machinery and mechanical systems. It covers a wide range of
+                        applications, including energy
+                        systems,
+                        materials, and manufacturing processes.</p>
+                    <a href="mechanical-engineering.html" class="btn btn-primary">See Full
+                        Details</a>
+                </div>
+            </div>
+
+
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Mechanic (Diesel).jpg" alt="AA-pic" width="599px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Mechanic (Diesel)</h3>
+                    <p class="card-text">The Mechanic (Diesel) course at ITIs is designed to teach students how to
+                        diagnose, maintain, and repair diesel engines used in various applications such as automobiles,
+                        trucks, generators, and heavy machinery. </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Mechanic (Refrigeration and Air Conditioning).jpg" width="598px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Mechanic (Refrigeration and Air Conditioning)</h3>
+                    <p class="card-text">The Mechanic (Refrigeration and Air Conditioning) course at ITIs in India is
+                        designed to equip students with the skills and knowledge required to install, maintain, and
+                        repair
+                        refrigeration and air conditioning systems.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+            </div>
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Mechanic (Radio and TV).jpg" width="598px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">The Mechanic (Radio and TV)</h3>
+                    <p class="card-text">The Mechanic (Radio and TV) course at ITIs is designed to teach students how to
+                        diagnose, maintain, and repair radio and television equipment. The course covers topics such
+                        as electronic components, circuits, and systems, and students learn to use specialized tools
+                        and equipment to troubleshoot and repair electronic devices.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Dress Making.jpg" width="598px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Dressmaking</h3>
+                    <p class="card-text">The Dressmaking trade at ITIs is designed to teach students how to make
+                        different
+                        types of garments such as dresses, skirts, blouses, and more. The course covers topics such as
+                        taking measurements, drafting patterns, cutting fabrics, and sewing techniques.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Wireman.jpg" width="598px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Wireman</h3>
+                    <p class="card-text">The Wireman trade at ITIs is designed to train students in
+                        electricalinstallationand maintenance work. The course covers topics such as electrical wiring,
+                        installation ofelectrical devices and equipment, and the maintenance of electrical systems. </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Operator Advanced Machine Tool.jpeg" width="598px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Operator Advanced Machine Tool</h3>
+                    <p class="card-text">The Operator Advanced Machine Tool trade at ITIs is designed to train
+                        studentsin theoperation and maintenance of advanced machine tools used in the manufacturing
+                        industry. The coursecovers topics such as the operation of CNC (Computer Numerical Control)
+                        machines, programming of CNC machines, maintenance of machines, and the use of various measuring
+                        instruments.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Pattern Maker.webp" width="598px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Pattern Maker</h3>
+                    <p class="card-text">The Pattern Maker trade at ITIs is designed to train students in the art of
+                        pattern making, which is an essential part of the garment and textile industry. The course
+                        covers topics such as pattern drafting, pattern grading, and garment construction.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="card branch" style="width: 600px">
+                <img class="card-image-top" src="Images/Turner cum Fitter.jpg" width="598px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Turner cum Fitter</h3>
+                    <p class="card-text">The Turner cum Fitter trade at ITIs is designed to train students in the
+                        operation and maintenance of lathe machines, and the fitting and assembly of mechanical
+                        components used in various industries. The course covers topics such as the operation of lathe
+                        machines, reading and interpretation of technical drawings, precision measurement, and the
+                        fitting and assembly of mechanical components.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Civil-Engineering branch card bg-light" style="width: 600px">
+                <img class="card-img-top" src="Images/Fitter.jpeg" alt="civilpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Fitter</h3>
+                    <p class="card-text">The Fitter trade at ITIs is designed to train students in the installation,
+                        maintenance, and repair of machinery used in various industries. The course covers topics such
+                        as reading and interpretation of technical drawings, use of hand and power tools, precision
+                        measurement, and fabrication and assembly of mechanical components.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+            </div>
+
+
+            <div class="Computer-Science-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Copa.jpeg" alt="comsciencepic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">COPA (Computer Operator and Programming Assistant)</h3>
+                    <p class="card-text">COPA (Computer Operator and Programming Assistant) trade at ITIs is designed to
+                        train students in the operation of computer systems, programming languages, and software
+                        applications. The course covers topics such as computer fundamentals, programming concepts,
+                        operating systems, database management, and networking.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Electrical-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Electronic mechanic.jpg" alt="electricalpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Electronic Mechanic</h3>
+                    <p>The Electronic Mechanic trade at ITIs is designed to train students in the repair, maintenance,
+                        and installation of electronic systems used in various industries. The course covers topics such
+                        as electronics fundamentals, electronic circuits and devices, digital electronics,
+                        microprocessors, and communication systems.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Electronics-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Instrumentation.jpeg" alt="eletranicpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Instrumentation</h3>
+                    <p class="card-text">The Instrumentation trade at ITIs is designed to train students in the repair,
+                        maintenance, and installation of industrial control and measurement systems. The course covers
+                        topics such as instrumentation basics, electronic measurements and instruments, control systems,
+                        and process control.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+            <div class="Automobile-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/machinist.webp" alt="Automobilepic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Machinist</h3>
+                    <p class="card-text">The Machinist trade at ITIs is designed to train students in the operation of
+                        various machines used in manufacturing, such as lathes, milling machines, grinders, and drilling
+                        machines. The course covers topics such as engineering drawing, machine operation, precision
+                        measurement, and tool and cutter grinding.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Aeronautical-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/welder.jpg" alt="Aeronauticalpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Welder</h3>
+                    <p class="card-text">The Welder trade at ITIs is designed to train students in various welding
+                        processes such as gas welding, arc welding, TIG welding, and MIG welding. The course covers
+                        topics such as welding techniques, welding materials, welding safety, and welding inspection.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Architecture branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Turner.jpg" alt="architecturepic" width="400px" height="300px">
+                <h3 class="card-title">Turner</h3>
+                <div class="card-body">
+                    <p class="card-text">The Turner trade at ITIs is designed to train students in the operation of
+                        lathes and other machines used for shaping metal components. The course covers topics such as
+                        engineering drawing, machine operation, precision measurement, and tool and cutter grinding.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+
+            </div>
+            <div class="Chemical-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/mmv.jpg" alt="chemicalpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">MMV (Mechanical Motor vehicle)</h3>
+                    <p class="card-text">The MMV (Motor Mechanic Vehicle) trade at ITIs is designed to train students in
+                        the maintenance and repair of vehicles such as cars, buses, and trucks. The course covers topics
+                        such as engine repair, transmission systems, brake systems, steering systems, and electrical
+                        systems.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Textile-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/plumber.jpeg" alt="texttilepic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Plumber</h3>
+                    <p class="card-text">The Plumber trade at ITIs is designed to train students in the installation,
+                        maintenance, and repair of plumbing systems in residential, commercial, and industrial
+                        buildings. The course covers topics such as pipe fitting, plumbing fixtures, drainage systems,
+                        and water supply systems.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+
+            </div>
+
+
+            <div class="Plastic-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Mechanic (Diesel).jpg" alt="plasticpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title"> Mechanic (Diesel)</h3>
+                    <p class="card-text">The Mechanic (Diesel) trade at ITIs is designed to train students in the
+                        maintenance and repair of diesel-powered vehicles and equipment. The course covers topics such
+                        as engine repair, fuel injection systems, cooling systems, and electrical systems.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Agricultural-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/painter.jpg" alt="agriculturalpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Painter</h3>
+                    <p class="card-text">The Painter trade at ITIs is designed to train students in the techniques and
+                        skills required for painting surfaces using different materials and methods. The course covers
+                        topics such as surface preparation, painting techniques, color theory, and safety procedures.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Mining-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Draughtsman (Mechanical).jpg" alt="miningpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Draughtsman (Mechanical)</h3>
+                    <p class="card-text">The Draughtsman (Mechanical) trade at ITIs is designed to train students in the
+                        technical and practical aspects of mechanical engineering drawing. The course covers topics such
+                        as technical drawing, engineering graphics, computer-aided design (CAD), and engineering
+                        materials.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Instrumentation-and-Control-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Draughtsman (Civil).jpg" alt="instrumentpic" width="400px"
+                    height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Draughtsman (Civil)</h3>
+                    <p class="card-text">The Draughtsman (Civil) trade at ITIs is designed to train students in the
+                        technical and practical aspects of civil engineering drawing. The course covers topics such as
+                        technical drawing, engineering graphics, computer-aided design (CAD), and engineering materials.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Information-Technology branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/carpenter.jpg" alt="itpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Carpenter</h3>
+                    <p class="card-text">The Carpenter trade at ITIs is designed to train students in the technical and
+                        practical aspects of carpentry, woodworking, and furniture-making. The course covers topics such
+                        as wood selection, wood joining techniques, furniture design and fabrication, and installation
+                        of wooden structures..</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+
+
+            <div class="Marine-Engineering branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Photographer.jpg" alt="marinepic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Photographer</h3>
+                    <p class="card-text">The Photographer trade at ITIs is designed to train students in the technical
+                        and creative aspects of photography. The course covers topics such as camera operation, lighting
+                        techniques, photo editing, and photography business management.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+            <div class="Food-Technology branch card" style="width: 600px">
+                <img class="card-img-top" src="Images/Information Technology and Electronic System Maintenance.jpeg"
+                    alt="foodpic" width="400px" height="300px">
+                <div class="card-body">
+                    <h3 class="card-title">Information Technology and Electronic System Maintenance</h3>
+                    <p class="card-text">The Information Technology and Electronic System Maintenance trade at ITIs is
+                        designed to train students in the technical and practical aspects of computer hardware and
+                        software maintenance, networking, and electronic systems. The course covers topics such as
+                        computer assembly and maintenance, software installation and troubleshooting, networking, and
+                        electronic system repair.</p>
+                    <a href="#" class="btn btn-primary">See Full Details</a>
+                </div>
+            </div>
+        </div>
+        <h4 class="footer-of-branches"><span>Note:-</span> This list may vary depending on
+            the college or institute
+            offering the course and the location. It is important to research and compare
+            different institutions to
+            determine the availability of your desired branch before enrolling in a Diploma
+            in Polytechnic program.
+        </h4>
+
+    </div>
+
+    <div class="top">
+        <center><a href="ITI.html" class="home">Home</a></center>
+        <a href="#top" class="gotop">Go top</a>
+    </div>
+    <hr>
+    <footer style="margin-left: 10px;">
+        <h6>Site Name - Career Guidlines <br>
+            Authors - The ERRORs <br>
+            Team name - The ERRORs <br>
+            Group Name - The ERRORs <br>
+            Contac-us - +917330372830 copyright&copy;</h6>
+    </footer>
+
+
+
+</body>
+
+</html>

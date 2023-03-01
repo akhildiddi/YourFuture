@@ -1,0 +1,121 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.Heading{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.Heading {
+    letter-spacing: 10px;
+    animation-name: head-animation;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes head-animation {
+    0% {
+        letter-spacing: 30px;
+    }
+
+    25% {
+        letter-spacing: 5px;
+
+    }
+
+    50% {
+        letter-spacing: 10px;
+    }
+}
+
+.main{
+background-color: rgb(241, 189, 170);
+padding: 50px;
+border-radius: 25px;
+}
+.main:hover{
+background-color: black;}
+.main a:hover{
+color:white;}
+.span1{
+    color: rgb(243, 76, 15);
+    margin-top: 50px;
+}
+.contain{
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #ACE1AF;
+    border-radius: 25px;
+    
+}
+.contain a:hover{
+color: orange;}
+
+a{
+display: block;
+text-decoration: none;
+padding-bottom: 15px;
+color: green;
+font-size: 25px;
+cursor: pointer;
+}
+.para1{
+font-size: 20px;
+margin-left: 150px;
+top: 50px;
+}
+@keyframes color-deley{
+0%{
+    background-color: white;
+}}
+@keyframes delay-animation1 {
+    0% {
+        transform: translateX(-50px);
+        
+    }
+}
+#name1 {
+    animation-name: delay-animation1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    visibility: hidden;
+}
+#searchiti {
+    animation-name: delay-animation1;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    visibility: hidden;
+}
+
+#Government {
+    animation-name: delay-animation1;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    visibility: hidden;
+}
+#Private {
+    animation-name: delay-animation1;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    visibility: hidden;
+}
+#Benefits {
+    animation-name: delay-animation1;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    visibility: hidden;
+}
+#Facilitie {
+    animation-name: delay-animation1;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    visibility: hidden;
+}
+.container{
+display: flex;
+justify-content: space-around;
+justify-content: baseline;}
